@@ -21,20 +21,48 @@
 
 
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    
     background-color: #763939;
     padding: 10px;
     color: white;
 }
-
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .nav ul{
     font-family: serif;
     display: flex;
     gap: 30px;
     font-size: 1rem;
     
+}
+
+.menu{
+    display: none;
+}
+
+.menu-hb{
+    display: inline;
+    display: none;
+}
+
+.menu-hb ul {
+    display: block;
+    text-align: center;
+}
+
+.menu-hb ul li {
+    background: #794a4a;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 2px;
+}
+
+
+.open{
+    display: block;
 }
 /*FInal da estilização header*/
 
@@ -85,12 +113,15 @@ main{
         width: 90%;
     }
 }
-@media (max-width:520px) {
+@media (max-width:600px) {
   
+.nav{
+    display: none;
+}
 
-  .inicio{
-    
+.menu{
+    display: block;
+}
 
-  }
   
 }
