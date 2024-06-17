@@ -1,5 +1,6 @@
 body{
-    overflow: auto;
+    overflow:auto;
+    background: #763939;
 }
 
 main{
@@ -24,15 +25,19 @@ h2{
 }
 
 .box{
+    
     display: flex;
     flex-direction: column;
-    background-color: #763939BB;
+    background-color: #763939;
     border-radius:20px;
     text-align: center;
     align-items: center;
-    padding: 10px;
+    box-shadow: 0px 0px 5px black;
 }
 
+.box img{
+    border-radius: 20px 20px 0 0;
+}
 span{
     font-family: serif;
     font-weight: bold;
