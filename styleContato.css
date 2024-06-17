@@ -54,3 +54,21 @@ button{
     cursor: pointer;
 }
 
+
+@media (max-width:827px) {
+    .cont{
+        display: none;
+    }
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 250px;
+        height: 150px;
+    }
+
+    .card img{
+        width: 50px;
+    }
+}
