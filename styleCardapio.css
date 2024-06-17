@@ -1,0 +1,56 @@
+body{
+    overflow: auto;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: "Irish Grover", system-ui;
+}
+
+.cardapio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1500px;
+    gap: 10px;
+    margin: 0 20px 20px 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #763939BB;
+    border-radius:20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+span{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+@media(max-width:725px){
+    .cardapio{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px){
+    .cardapio{
+        grid-template-columns: 1fr;
+    }
+
+    body{
+        background-repeat: repeat-y;
+    }
+}
