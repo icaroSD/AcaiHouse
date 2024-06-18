@@ -28,7 +28,7 @@ body{
 
 
 header{
-    
+    top: 0;
     background-color: #763939;
     padding: 10px;
     color: white;
@@ -38,6 +38,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 .nav ul{
     font-family: serif;
@@ -88,7 +89,7 @@ header{
 main{
     width: 100%;
     display: flex;
-    align-items: center;
+    margin-top: 10%;
     height: 100vh;
 }
 
