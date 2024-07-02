@@ -35,7 +35,6 @@ main{
 }
 .teste:hover{
     box-shadow: 0 0 10px  white;
-    border-radius: 20px;
     transform: scale(110%);
     transition: 0.5s;
 }
@@ -56,12 +55,12 @@ main{
 
 .texto h3{
     margin-top: 5px;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .texto p {
-    color: black;
+    color: white;
 }
 
 @media (max-width:814px){
@@ -75,6 +74,12 @@ main{
     .cardapio{
         grid-template-columns: 1fr 1fr ;
         
+    }
+    .teste:hover{
+        transform: scale(100%);
+         transition: 0;
+         box-shadow: none;
+
     }
 }
 
