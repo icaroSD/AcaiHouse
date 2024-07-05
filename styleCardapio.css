@@ -1,21 +1,14 @@
 body{
     /*background: #763939;*/
-    overflow: auto;
-    background-repeat: repeat-y;
 }
 
 main{
-    display: flex;
-    text-align: center;
-    
-    flex-direction: column;
-    margin-top: 10px;
-    gap: 30px;
+  
 }
 
 .cardapio{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 4%;
 }
 .card{
@@ -23,7 +16,11 @@ main{
     flex-direction: column;
     gap: 5px;
   
+}
 
+h2{
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px black;
 }
 
 .teste{
