@@ -67,16 +67,13 @@ h2{
     }
 }
 
-@media (max-width:489px) {
+@media (max-width:504px) {
     .cardapio{
         grid-template-columns: 1fr 1fr ;
         
     }
-    .teste:hover{
-        transform: scale(100%);
-         transition: 0;
-         box-shadow: none;
-
+    main{
+        text-align: center;
     }
 }
 
