@@ -15,6 +15,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+.logo a{
+    font-size: 2.5rem;
+}
+
+.home{
+    color: #000000;
+}
 body{
     background-image: url(img/acai-2709077_1280.jpg);
     background-size: cover;
@@ -139,13 +146,17 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     box-sizing: border-box;
+    gap: 5px;
 
 }
 
 .box{
-    background-color: #763939;
-    padding: 20px 40px;
+    font-size: 1.4rem;
+    background-color: #763939d2;
+    padding: 20px 35px;
     display: flex;
+    gap: 5px;
+    align-items: center;
     border-radius: 10px;
 }
 @media (max-width:725px) {
@@ -156,7 +167,16 @@ main{
         width: 90%;
     }
 }
-
+@media (max-width:626px) {
+    .contatos{
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .box{
+        padding: 20px 100px;
+    }
+    
+}
 @media (max-width:600px) {
   
 main{
@@ -170,13 +190,6 @@ main{
     display: block;
 }
 
-.contatos{
-    grid-template-columns: 1fr;
-    gap: 5px;
-}
-.box{
-    padding: 20px 100px;
-}
 
 }
 
@@ -192,4 +205,14 @@ main{
         
     }
 
+}
+
+@media (max-width:364px) {
+    main{
+        gap: 30px;
+    }
+
+    .box{
+        padding: 20px 80px;
+    }
 }
