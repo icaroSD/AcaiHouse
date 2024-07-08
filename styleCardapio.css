@@ -1,5 +1,6 @@
 body{
     /*background: #763939;*/
+   
 }
 
 main{
@@ -65,7 +66,13 @@ h2{
         grid-template-columns: 1fr 1fr 1fr ;
         gap: 5px;
     }
+    body{
+        overflow: auto;
+        background-repeat: repeat-y;
+    }
 }
+
+
 
 @media (max-width:504px) {
     .cardapio{
